@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=open+sans&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
 --primary-bg:#2b2d42;
@@ -26,7 +26,7 @@ body {
 header {
     background-color:var(--primary-bg);
     color:var(--primary-font-color);
-    font-family: open+sans;
+    font-family: Georgia, 'Times New Roman', Times, serif,open-sans;
     font-size: 2em;
 }
 
@@ -34,6 +34,7 @@ header {
     color: var(--primary-font-color);
     margin-top: 10px;
     font-size: 2em;
+    font-family: 'Open Sans', sans-serif,Georgia, 'Times New Roman', Times, serif;
 }
 
 h4 {
@@ -60,6 +61,8 @@ nav a:hover {
 .book:hover, .join:hover {
     background-color: var(--background-color);
     color:var(--font-color);
+    box-shadow: 7px 6px 5px #6f7364, 12px 13px black;
+    border: 3px solid blue;
 }
 
 #background {
@@ -84,7 +87,7 @@ margin: 0;
 
 .msg h2 {
     color:var(--primary-font-color);
-    font-family: sans+open;
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Open Sans', sans-serif;
 }
 
 .msg p {
@@ -192,6 +195,7 @@ main section img {
 #hero #hero-img {
     width: 100%;
     height: auto;
+    filter:drop-shadow(0px 20px 8px grey);
 }
 
 .book {
@@ -200,6 +204,6 @@ main section img {
 
 section {
     text-align: center;
-    margin: 20px;
+    margin: 50px;
 }
 
